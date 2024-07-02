@@ -31,8 +31,8 @@ rustup target add thumbv6m-none-eabi
 
 Contributors names and contact info
 
-ex. Jared Forte 
-ex. [@V4UIDev](https://github.com/V4UIDev)
+Jared Forte 
+[@V4UIDev](https://github.com/V4UIDev)
 
 ## Acknowledgments
 
