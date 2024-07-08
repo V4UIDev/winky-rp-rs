@@ -4,14 +4,14 @@ Winky-rp-rs
 
 ## Description
 
-A cargo project to blink the onboard LED on a Pi Pico H and an external LED alternately.
+A cargo project to blink the onboard LED on a Pi Pico H, or a Pi Pico W, and an external LED alternately.
 
 ## Getting Started
 
 ### Dependencies
 
 * Requires cargo and rustup to be installed
-* Requires a Pi Pico H, connected either to a probe or via Micro USB to a computer.
+* Requires a Pi Pico H or Pi Pico W, connected either to a probe or via Micro USB to a computer.
 
 ### Installing
 
@@ -24,8 +24,9 @@ rustup target add thumbv6m-none-eabi
 
 ### Executing program
 
-* To flash the Pi Pico H (Using a micro-USB cable), plug it into the computer whilst holding down the BOOTSEL button
-* Then in your terminal run `cargo run --release --bin winky`
+* To flash the Pi Pico H/W (Using a micro-USB cable), plug it into the computer whilst holding down the BOOTSEL button
+* Then in your terminal run `cargo run --release --bin winky` for the Pi Pico H
+* For the Pi Pico W run `cargo run --release --bin winky_wifi`
 
 ## Authors
 

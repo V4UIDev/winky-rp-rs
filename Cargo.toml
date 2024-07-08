@@ -10,9 +10,16 @@ embassy-sync = { version = "0.6.0", features = ["defmt"] }
 embassy-time = { version = "0.3.1", features = ["defmt", "defmt-timestamp-uptime"] }
 embassy-rp = { version = "0.1.0", features = ["defmt", "unstable-pac", "time-driver", "critical-section-impl"] }
 embassy-executor = { version = "0.5.0", features = ["task-arena-size-98304", "arch-cortex-m", "executor-thread", "executor-interrupt", "defmt", "integrated-timers"] }
+cyw43-pio = { version = "0.1.0", features = ["defmt", "overclock"] }
+cyw43 = { version = "0.1.0", features = ["defmt", "firmware-logs"] }
 
 defmt = "0.3"
 defmt-rtt = "0.4"
+embedded-hal-1 = { package = "embedded-hal", version = "1.0" }
+embedded-hal-async = "1.0"
+embedded-hal-bus = { version = "0.1", features = ["async"] }
+embedded-io-async = { version = "0.6.1", features = ["defmt-03"] }
+embedded-storage = { version = "0.3" }
 
 #cortex-m = { version = "0.7.6", features = ["critical-section-single-core"] }
 cortex-m = { version = "0.7.6", features = ["inline-asm"] }
